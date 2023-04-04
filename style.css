@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(17, 34, 49);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#cabeçalho{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18, 18, 103);
+    position: relative;
+    margin-top: 0px;
+}
+
+#tituloCabeçalho{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.conteudo{
+    width: 100%;
+    height: 500px;
+}
+
+.texto{
+    position: relative;
+    top: 20px;
+    width: 50%;
+    border: 3px rgb(115, 119, 178) solid;
+    left: 10px;
+    
+}
+
+#rodape{
+    margin-top: 57px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(25, 25, 33);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#contatos{
+    text-align: left;
+    margin-left: 400px;
+}
+
+.text{
+    width: 50%;
+    border: 3px rgb(115, 119, 178) solid;
+    display: flex;
+    
+}
+
+#inter{
+    padding-right: 50px;
+}
