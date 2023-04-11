@@ -3,15 +3,9 @@
     margin: 0px;
 }
 
+
 body{
     background-color: rgb(17, 34, 49);
-}
-
-h1{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    
 }
 
 p{
@@ -20,12 +14,19 @@ p{
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color:  rgb(51, 51, 189);
+}
+
 #cabeçalho{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: rgb(18, 18, 103);
-    position: relative;
+    position: fixed;
     margin-top: 0px;
+    top: 0px;
+    bottom: 0px;
 }
 
 #tituloCabeçalho{
@@ -34,27 +35,64 @@ p{
     font-size: 40px;
     color: aliceblue;
     padding-left: 60px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
-.conteudo{
+.secao1{
+    margin-top: 80px;
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
-.texto{
-    position: relative;
+.titulos{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 135, 135);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#fotoPerfil{
+    width: 380px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px rgb(69, 109, 196) solid;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.textosSecao1, .textosSecao2{
     top: 20px;
-    width: 50%;
-    border: 3px rgb(115, 119, 178) solid;
+    width: 400px;
     left: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
     
 }
 
-#rodape{
-    margin-top: 57px;
+.secao2{
     width: 100%;
-    height: 200px;
+    height: 700px;
+    margin-top: 70px;
+     background-color: rgb(15, 29, 41);
+     
+}
+
+.tituloCard{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(163, 192, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#rodape{
+    width: 100%;
+    height: 150px;
     background-color: rgb(25, 25, 33);
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,18 +100,8 @@ p{
     color: aliceblue;
 }
 
-#contatos{
-    text-align: left;
-    margin-left: 400px;
-}
-
-.text{
-    width: 50%;
-    border: 3px rgb(115, 119, 178) solid;
-    display: flex;
-    
-}
-
-#inter{
-    padding-right: 50px;
+.icones{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
 }
